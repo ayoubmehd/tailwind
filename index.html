@@ -1,381 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- <link href="/style.css" rel="stylesheet"> -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div>
-        <div style="background-image: url('/images/background.jpg');" class="h-screen bg-cover bg-no-repeat bg-center">
-            <nav class="flex flex-wrap sm:flex-nowrap justify-center md:justify-between lg:w-1/2 p-3">
-                <div class="flex justify-center sm:block w-full sm:w-auto">
-                    <img src="./images/logo.svg" alt="" srcset="">
+      <div
+        style="background-image: url('./images/background.jpg')"
+        class="h-screen bg-cover bg-no-repeat bg-center"
+      >
+        <nav
+          class="flex flex-wrap sm:flex-nowrap justify-center md:justify-between lg:w-1/2 p-3"
+        >
+          <div class="flex justify-center sm:block w-full sm:w-auto">
+            <img src="./images/logo.svg" alt="" srcset="" />
+          </div>
+
+          <ul class="flex items-center mt-2 sm:mt-0 text-white font-bold">
+            <li class="p-2"><a href="">About Us</a></li>
+            <li class="p-2"><a href="">Pricing</a></li>
+            <li class="p-2"><a href="">Mobile</a></li>
+            <li class="p-2"><a href="">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div
+        class="mx-auto relative -mt-96 pb-20 w-4/5 text-white bg-gradient-to-b from-transparent via-gray-700 to-gray-900"
+      >
+        <header class="flex">
+          <div class="lg:w-2/3 px-5 lg:px-20 relative z-20">
+            <h1 class="font-bold uppercase text-5xl">Alpine</h1>
+            <h2 class="font-bold uppercase mb-6">
+              Social media Marketing platform
+            </h2>
+            <p class="mb-4">
+              The core systems of record for marketing that provide a common way
+              of orchestring the experiences across channels and applications,
+              including operational managment and measurement, with the ultimate
+              goal of driving customer engagement.
+            </p>
+
+            <form class="flex mt-6" action="">
+              <input
+                class="w-2/3 bg-transparent rounded-xl border outline-0 px-2 md:px-4 py-1"
+                type="text"
+                placeholder="Enter your work email!"
+              />
+              <button
+                class="ml-1 rounded-xl border text-xs outline-0 px-2 md:px-4 py-1"
+              >
+                Request access
+              </button>
+            </form>
+          </div>
+
+          <div class="absolute lg:static right-0 z-0">
+            <img class="w-full" src="./images/coffe-cup.png" alt="" />
+          </div>
+        </header>
+
+        <nav class="px-5 lg:px-20 py-8 mt-8 bg-gray-700 bg-opacity-90">
+          <ul
+            class="flex flex-wrap md:flex-nowrap justify-center lg:justify-between"
+          >
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/facebook.svg" alt="Facebook" />
                 </div>
+                <p class="hidden lg:block mx-2">Facebook</p>
+              </a>
+            </li>
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/Instagram.svg" alt="Instagram" />
+                </div>
+                <p class="hidden lg:block mx-2">Instagram</p>
+              </a>
+            </li>
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/twitter.svg" alt="Twitter" />
+                </div>
+                <p class="hidden lg:block mx-2">Twitter</p>
+              </a>
+            </li>
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/youtube.svg" alt="Youtube" />
+                </div>
+                <p class="hidden lg:block mx-2">Youtube</p>
+              </a>
+            </li>
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/pinterest.svg" alt="Pinterest" />
+                </div>
+                <p class="hidden lg:block mx-2">Pinterest</p>
+              </a>
+            </li>
+            <li class="w-14 md:w-28 px-3 md:px-0">
+              <a class="flex justify-center items-center" href="">
+                <div class="w-8">
+                  <img src="./images/google-glass-logo.svg" alt="Google" />
+                </div>
+                <p class="hidden lg:block mx-2">Google</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-                <ul class="flex items-center mt-2 sm:mt-0 text-white font-bold">
-                    <li class="p-2"><a href="">About Us</a></li>
-                    <li class="p-2"><a href="">Pricing</a></li>
-                    <li class="p-2"><a href="">Mobile</a></li>
-                    <li class="p-2"><a href="">Blog</a></li>
-                </ul>
-            </nav>
+        <div class="flex justify-center flex-wrap md:mt-32">
+          <div class="md:-mr-8 w-1/3 order-2 md:order-none">
+            <img class="object-cover" src="./images/image-1.png" alt="" />
+          </div>
+          <div
+            class="flex justify-center md:block md:-mt-20 relative w-full md:w-1/3 order-1 md:order-none"
+          >
+            <img class="object-cover" src="./images/image-2.png" alt="" />
+          </div>
+          <div class="md:-ml-8 w-1/3 order-3 md:order-none">
+            <img class="object-cover" src="./images/image-3.png" alt="" />
+          </div>
         </div>
-
-
 
         <div
-            class="mx-auto relative -mt-96 pb-20 w-4/5 text-white bg-gradient-to-b from-transparent via-gray-700 to-gray-900">
-            <header class="flex">
-                <div class="lg:w-2/3 px-5 lg:px-20 relative z-20">
-                    <h1 class="font-bold uppercase text-5xl">
-                        Alpine
-                    </h1>
-                    <h2 class="font-bold uppercase mb-6">
-                        Social media Marketing platform
-                    </h2>
-                    <p class="mb-4">
-                        The core systems of record for marketing that provide a common way of orchestring the
-                        experiences
-                        across channels and
-                        applications, including operational managment and measurement, with the ultimate goal of driving
-                        customer engagement.
-                    </p>
-
-                    <form class="flex mt-6" action="">
-                        <input class="w-2/3 bg-transparent rounded-xl border outline-0 px-2 md:px-4 py-1" type="text"
-                            placeholder="Enter your work email!">
-                        <button class="ml-1 rounded-xl border text-xs outline-0 px-2 md:px-4 py-1">
-                            Request access
-                        </button>
-                    </form>
-                </div>
-
-                <div class="absolute lg:static right-0 z-0">
-                    <img class="w-full" src="./images/coffe-cup.png" alt="">
-                </div>
-            </header>
-
-            <nav class="px-5 lg:px-20 py-8 mt-8 bg-gray-700 bg-opacity-90">
-                <ul class="flex flex-wrap md:flex-nowrap justify-center lg:justify-between">
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/facebook.svg" alt="Facebook">
-                            </div>
-                            <p class="hidden lg:block mx-2">Facebook</p>
-                        </a>
-                    </li>
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/Instagram.svg" alt="Instagram">
-                            </div>
-                            <p class="hidden lg:block mx-2">Instagram</p>
-                        </a>
-                    </li>
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/twitter.svg" alt="Twitter">
-                            </div>
-                            <p class="hidden lg:block mx-2">Twitter</p>
-                        </a>
-                    </li>
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/youtube.svg" alt="Youtube">
-                            </div>
-                            <p class="hidden lg:block mx-2">Youtube</p>
-                        </a>
-                    </li>
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/pinterest.svg" alt="Pinterest">
-                            </div>
-                            <p class="hidden lg:block mx-2">Pinterest</p>
-                        </a>
-                    </li>
-                    <li class="w-14 md:w-28 px-3 md:px-0">
-                        <a class="flex justify-center items-center" href="">
-                            <div class="w-8">
-                                <img src="./images/google-glass-logo.svg" alt="Google">
-                            </div>
-                            <p class="hidden lg:block mx-2">Google</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="flex justify-center flex-wrap md:mt-32">
-                <div class="md:-mr-8 w-1/3 order-2 md:order-none">
-                    <img class="object-cover" src="./images/image-1.png" alt="">
-                </div>
-                <div class="flex justify-center md:block md:-mt-20 relative w-full md:w-1/3 order-1 md:order-none">
-                    <img class="object-cover" src="./images/image-2.png" alt="">
-                </div>
-                <div class="md:-ml-8 w-1/3 order-3 md:order-none">
-                    <img class="object-cover" src="./images/image-3.png" alt="">
-                </div>
+          class="flex justify-center lg:justify-between flex-wrap lg:flex-nowrap w-2/3 mx-auto my-4 lg:my-0"
+        >
+          <div class="flex justify-between w-full md:w-5/6">
+            <h2 class="block font-bold">Marketing</h2>
+            <div class="flex items-center w-5/6">
+              <hr class="block w-11/12 ml-2 lg:ml-0 border-dashed" />
+              <i class="block ml-2 fa fa-commenting-o" aria-hidden="true"></i>
             </div>
-
-            <div class="flex justify-center lg:justify-between flex-wrap lg:flex-nowrap w-2/3 mx-auto my-4 lg:my-0">
-                <div class="flex justify-between w-full md:w-5/6">
-                    <h2 class="block font-bold">Marketing</h2>
-                    <div class="flex items-center w-5/6">
-                        <hr class="block w-11/12 ml-2 lg:ml-0 border-dashed" />
-                        <i class="block ml-2 fa fa-commenting-o" aria-hidden="true"></i>
-                    </div>
-                </div>
-                <button class="block px-3 py-1 mt-4 lg:mt-0 w-36 rounded-full text-sm bg-yellow-800">
-                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                    <span>
-                        Start a thread
-                    </span>
-                </button>
-            </div>
-
-            <div class="flex flex-wrap justify-center px-5 md:px-20 mt-12">
-                <div class="flex flex-wrap md:w-10/12 lg:w-1/2">
-                    <h3 class="flex items-center w-1/2 mb-4">
-                        <div class="w-8 h-8 rounded-full text-center leading-8 bg-red-600">1</div>
-                        <span class="ml-1 md:ml-2">Unread notification</span>
-                    </h3>
-                    <div class="flex justify-end md:w-1/2 mb-4 ml-auto">
-                        <button class="flex justify-between px-3 py-1 w-32 rounded-2xl bg-gray-400">
-                            <span class="flex justify-center items-center w-6 h-6 rounded-full border-2">
-                                <span class="w-2 h-2 rounded-full border-2"></span>
-                            </span>
-                            <span>Dismiss all</span>
-                        </button>
-                    </div>
-
-                    <div class="flex p-4 text-gray-100 bg-gray-400">
-                        <div class="flex flex-wrap w-1/2 px-4">
-                            <div class="flex aligne-center justify-center relative rounded-full w-14 h-14">
-                                <img class="w-full" src="./images/profile-1.png" alt="">
-                                <img class="absolute -bottom-0.5 -right-0.5"
-                                    src="./images/vscode-icons_file-type-clojure.png" alt="">
-                            </div>
-                            <div class="px-2">
-                                <h4 class="font-bold">Rosario</h4>
-                                <span>Just now</span>
-                            </div>
-                        </div>
-
-                        <div class="w-1/2">
-                            <h4 class="pt-1 pb-3 font-bold">Showcasing Cutomers</h4>
-                            <p class="text-sm">Our customers have continued to send
-                                in pictures of their finished artwork...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-10/12 lg:w-1/2 px-12">
-                    <h3 class="mt-8 mb-8 font-bold">
-                        Start a thread
-                    </h3>
-                    <p class="text-sm">
-                        Technology trends have the potential to drive significant disruption and deliver significant
-                        opportunity. Digital trends
-                        such as autonomous things, blockchain, digital twins and smart spaces are rapidly approaching
-                        maturity.
-                    </p>
-                </div>
-                <div class="flex flex-wrap md:w-10/12 lg:w-1/2 mt-14">
-                    <h3 class="flex items-center w-1/2 mb-4">
-                        Recent
-                    </h3>
-                    <div class="flex justify-end w-1/2 mb-4">
-                        <button class="flex justify-between px-3 py-1 w-32 rounded-2xl bg-gray-400">
-                            <span>Unread</span>
-                            <span class="flex items-center p-0.5 w-9 h-6 rounded-full bg-red-600">
-                                <span class="inline-block w-4 h-4 rounded-full bg-white"></span>
-                            </span>
-                        </button>
-                    </div>
-
-                    <div class="flex p-4 text-gray-100 bg-gray-400">
-                        <div class="flex flex-wrap w-1/2 px-4">
-                            <div class="flex aligne-center justify-center relative rounded-full w-14 h-14">
-                                <img class="w-full" src="./images/profile-2.png" alt="">
-                                <img class="absolute -bottom-0.5 -right-0.5" src="./images/profile-icon-2.png" alt="">
-                            </div>
-                            <div class="px-2">
-                                <h4 class="font-bold">Rosario</h4>
-                                <span>Just now</span>
-                            </div>
-                        </div>
-
-                        <div class="w-1/2">
-                            <h4 class="pt-1 pb-3 font-bold">Showcasing Cutomers</h4>
-                            <p class="text-sm">Our customers have continued to send
-                                in pictures of their finished artwork...</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="md:w-10/12 lg:w-1/2 px-12 lg:mt-14">
-                    <h3 class="mt-8 mb-8 font-bold">
-                        Start a thread
-                    </h3>
-                    <p class="text-sm">
-                        Technology trends have the potential to drive significant disruption and deliver significant
-                        opportunity. Digital trends
-                        such as autonomous things, blockchain, digital twins and smart spaces are rapidly approaching
-                        maturity.
-                    </p>
-                </div>
-            </div>
+          </div>
+          <button
+            class="block px-3 py-1 mt-4 lg:mt-0 w-36 rounded-full text-sm bg-yellow-800"
+          >
+            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+            <span> Start a thread </span>
+          </button>
         </div>
+
+        <div class="flex flex-wrap justify-center px-5 md:px-20 mt-12">
+          <div class="flex flex-wrap md:w-10/12 lg:w-1/2">
+            <h3 class="flex items-center w-1/2 mb-4">
+              <div
+                class="w-8 h-8 rounded-full text-center leading-8 bg-red-600"
+              >
+                1
+              </div>
+              <span class="ml-1 md:ml-2">Unread notification</span>
+            </h3>
+            <div class="flex justify-end md:w-1/2 mb-4 ml-auto">
+              <button
+                class="flex justify-between px-3 py-1 w-32 rounded-2xl bg-gray-400"
+              >
+                <span
+                  class="flex justify-center items-center w-6 h-6 rounded-full border-2"
+                >
+                  <span class="w-2 h-2 rounded-full border-2"></span>
+                </span>
+                <span>Dismiss all</span>
+              </button>
+            </div>
+
+            <div class="flex p-4 text-gray-100 bg-gray-400">
+              <div class="flex flex-wrap w-1/2 px-4">
+                <div
+                  class="flex aligne-center justify-center relative rounded-full w-14 h-14"
+                >
+                  <img class="w-full" src="./images/profile-1.png" alt="" />
+                  <img
+                    class="absolute -bottom-0.5 -right-0.5"
+                    src="./images/vscode-icons_file-type-clojure.png"
+                    alt=""
+                  />
+                </div>
+                <div class="px-2">
+                  <h4 class="font-bold">Rosario</h4>
+                  <span>Just now</span>
+                </div>
+              </div>
+
+              <div class="w-1/2">
+                <h4 class="pt-1 pb-3 font-bold">Showcasing Cutomers</h4>
+                <p class="text-sm">
+                  Our customers have continued to send in pictures of their
+                  finished artwork...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-10/12 lg:w-1/2 px-12">
+            <h3 class="mt-8 mb-8 font-bold">Start a thread</h3>
+            <p class="text-sm">
+              Technology trends have the potential to drive significant
+              disruption and deliver significant opportunity. Digital trends
+              such as autonomous things, blockchain, digital twins and smart
+              spaces are rapidly approaching maturity.
+            </p>
+          </div>
+          <div class="flex flex-wrap md:w-10/12 lg:w-1/2 mt-14">
+            <h3 class="flex items-center w-1/2 mb-4">Recent</h3>
+            <div class="flex justify-end w-1/2 mb-4">
+              <button
+                class="flex justify-between px-3 py-1 w-32 rounded-2xl bg-gray-400"
+              >
+                <span>Unread</span>
+                <span
+                  class="flex items-center p-0.5 w-9 h-6 rounded-full bg-red-600"
+                >
+                  <span
+                    class="inline-block w-4 h-4 rounded-full bg-white"
+                  ></span>
+                </span>
+              </button>
+            </div>
+
+            <div class="flex p-4 text-gray-100 bg-gray-400">
+              <div class="flex flex-wrap w-1/2 px-4">
+                <div
+                  class="flex aligne-center justify-center relative rounded-full w-14 h-14"
+                >
+                  <img class="w-full" src="./images/profile-2.png" alt="" />
+                  <img
+                    class="absolute -bottom-0.5 -right-0.5"
+                    src="./images/profile-icon-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="px-2">
+                  <h4 class="font-bold">Rosario</h4>
+                  <span>Just now</span>
+                </div>
+              </div>
+
+              <div class="w-1/2">
+                <h4 class="pt-1 pb-3 font-bold">Showcasing Cutomers</h4>
+                <p class="text-sm">
+                  Our customers have continued to send in pictures of their
+                  finished artwork...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-10/12 lg:w-1/2 px-12 lg:mt-14">
+            <h3 class="mt-8 mb-8 font-bold">Start a thread</h3>
+            <p class="text-sm">
+              Technology trends have the potential to drive significant
+              disruption and deliver significant opportunity. Digital trends
+              such as autonomous things, blockchain, digital twins and smart
+              spaces are rapidly approaching maturity.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="w-2/3 mx-auto my-6">
-        <ul class="flex items-center justify-between">
-            <li class="px-3">
-                <a class="flex items-center" href="">
-                    <img src="./images/glossier-logo.svg" alt="">
-                </a>
-            </li>
-            <li class="px-3">
-                <a class="flex items-center" href="">
-                    <img src="./images/aspire-logo.svg" alt="">
-                </a>
-            </li>
-            <li class="px-3">
-                <a class="flex items-center" href="">
-                    <img src="./images/nylas-logo.svg" alt="">
-                </a>
-            </li>
-            <li class="px-3">
-                <a class="flex items-center" href="">
-                    <img src="./images/bitwise-logo.svg" alt="">
-                </a>
-            </li>
-        </ul>
+      <ul class="flex items-center justify-between">
+        <li class="px-3">
+          <a class="flex items-center" href="">
+            <img src="./images/glossier-logo.svg" alt="" />
+          </a>
+        </li>
+        <li class="px-3">
+          <a class="flex items-center" href="">
+            <img src="./images/aspire-logo.svg" alt="" />
+          </a>
+        </li>
+        <li class="px-3">
+          <a class="flex items-center" href="">
+            <img src="./images/nylas-logo.svg" alt="" />
+          </a>
+        </li>
+        <li class="px-3">
+          <a class="flex items-center" href="">
+            <img src="./images/bitwise-logo.svg" alt="" />
+          </a>
+        </li>
+      </ul>
     </div>
 
     <div
-        class="block md:flex flex-wrap items-center justify-center flex-col lg:flex-row lg:flex-nowrap mb-14 mx-auto w-2/3">
-        <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
-            <div class="flex items-center">
-                <div>
-                    <img src="./images/testemonial-profile-1.png" alt="">
-                </div>
-                <div class="px-2">
-                    <img src="./images/testemonial-logo-1.svg" alt="">
-                </div>
-            </div>
-            <p class="pt-4">
-                The AMA’s definitions of marketing and marketing research are reviewed and reapproved/modified every
-                three-years by a
-                panel of five scholars who are active researchers.
-            </p>
+      class="block md:flex flex-wrap items-center justify-center flex-col lg:flex-row lg:flex-nowrap mb-14 mx-auto w-2/3"
+    >
+      <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
+        <div class="flex items-center">
+          <div>
+            <img src="./images/testemonial-profile-1.png" alt="" />
+          </div>
+          <div class="px-2">
+            <img src="./images/testemonial-logo-1.svg" alt="" />
+          </div>
         </div>
-        <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
-            <div class="flex items-center">
-                <div>
-                    <img src="./images/testemonial-profile-1.png" alt="">
-                </div>
-                <div class="px-2">
-                    <img src="./images/testemonial-logo-1.svg" alt="">
-                </div>
-            </div>
-            <p class="pt-4">
-                The AMA’s definitions of marketing and marketing research are reviewed and reapproved/modified every
-                three-years by a
-                panel of five scholars who are active researchers.
-            </p>
+        <p class="pt-4">
+          The AMA’s definitions of marketing and marketing research are reviewed
+          and reapproved/modified every three-years by a panel of five scholars
+          who are active researchers.
+        </p>
+      </div>
+      <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
+        <div class="flex items-center">
+          <div>
+            <img src="./images/testemonial-profile-1.png" alt="" />
+          </div>
+          <div class="px-2">
+            <img src="./images/testemonial-logo-1.svg" alt="" />
+          </div>
         </div>
-        <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
-            <div class="flex items-center">
-                <div>
-                    <img src="./images/testemonial-profile-1.png" alt="">
-                </div>
-                <div class="px-2">
-                    <img src="./images/testemonial-logo-1.svg" alt="">
-                </div>
-            </div>
-            <p class="pt-4">
-                The AMA’s definitions of marketing and marketing research are reviewed and reapproved/modified every
-                three-years by a
-                panel of five scholars who are active researchers.
-            </p>
+        <p class="pt-4">
+          The AMA’s definitions of marketing and marketing research are reviewed
+          and reapproved/modified every three-years by a panel of five scholars
+          who are active researchers.
+        </p>
+      </div>
+      <div class="md:w-2/3 lg:w-auto px-4 mt-4 lg:mt-0">
+        <div class="flex items-center">
+          <div>
+            <img src="./images/testemonial-profile-1.png" alt="" />
+          </div>
+          <div class="px-2">
+            <img src="./images/testemonial-logo-1.svg" alt="" />
+          </div>
         </div>
+        <p class="pt-4">
+          The AMA’s definitions of marketing and marketing research are reviewed
+          and reapproved/modified every three-years by a panel of five scholars
+          who are active researchers.
+        </p>
+      </div>
     </div>
 
-
     <footer class="relative bg-gray-800 text-white">
-        <div class="absolute w-12 h-12">
-            <div></div>
-        </div>
-        <div class="px-8 py-12">
-            <div class="flex flex-wrap md:flex-nowrap justify-center md:justify-end text-center md:text-left">
-                <div class="w-full md:w-4/12 mb-6 md:mb-0 font-bold">
-                    <h2 class="uppercase text-4xl">Alpine</h2>
-                </div>
-                <div class="w-4/12">
-                    <h3 class="pb-4 font-bold">Explore</h3>
-                    <ul>
-                        <li>
-                            <a href="">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="">Mobile</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-4/12">
-                    <h3 class="pb-4 font-bold">Resources</h3>
-                    <ul>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-4/12">
-                    <h3 class="pb-4 font-bold">
-                        Company
-                    </h3>
-                    <ul>
-                        <li>
-                            <a href="">Abour us</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-4/12 mt-6 md:mt-0 md:text-right">
-                    <div class="">
-                        <ul class="">
-                            <li><a href=""></a></li>
-                            <li><a href="">Twitter</a></li>
-                            <li><a href="">Facebook</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a class="font-bold" href="">Terms & Privacy</a>
-                    </div>
-                    <div>
-                        <p>&copy; 2019 Threads Group inc.</p>
-                    </div>
-                </div>
+      <div class="absolute w-12 h-12">
+        <div></div>
+      </div>
+      <div class="px-8 py-12">
+        <div
+          class="flex flex-wrap md:flex-nowrap justify-center md:justify-end text-center md:text-left"
+        >
+          <div class="w-full md:w-4/12 mb-6 md:mb-0 font-bold">
+            <h2 class="uppercase text-4xl">Alpine</h2>
+          </div>
+          <div class="w-4/12">
+            <h3 class="pb-4 font-bold">Explore</h3>
+            <ul>
+              <li>
+                <a href="">Pricing</a>
+              </li>
+              <li>
+                <a href="">Mobile</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <h3 class="pb-4 font-bold">Resources</h3>
+            <ul>
+              <li>
+                <a href="">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12">
+            <h3 class="pb-4 font-bold">Company</h3>
+            <ul>
+              <li>
+                <a href="">Abour us</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-4/12 mt-6 md:mt-0 md:text-right">
+            <div class="">
+              <ul class="">
+                <li><a href=""></a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Facebook</a></li>
+              </ul>
             </div>
-            <div class="flex justify-center pt-12 pb-4">
-                <button>
-                    THANKS FOR WATCHING
-                </button>
+            <div>
+              <a class="font-bold" href="">Terms & Privacy</a>
             </div>
+            <div>
+              <p>&copy; 2019 Threads Group inc.</p>
+            </div>
+          </div>
         </div>
+        <div class="flex justify-center pt-12 pb-4">
+          <button>THANKS FOR WATCHING</button>
+        </div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
